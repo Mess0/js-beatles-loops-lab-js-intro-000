@@ -1,5 +1,5 @@
 
 var theBeatlesPlay = (musicians, instruments) =>{
-  var arr = [].push(musicians + " plays " + instruments)
-  return arr
+  var arr = []
+  return arr.concat(musicians,instruments)
 }
