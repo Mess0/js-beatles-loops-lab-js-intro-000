@@ -1,6 +1,6 @@
 
 var theBeatlesPlay = (musicians, instruments) =>{
-  var arr [];
+  var arr = [];
   return musicians + ' plays ' + instruments
 }
 
