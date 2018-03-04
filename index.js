@@ -1,5 +1,5 @@
 
 var theBeatlesPlay = (musicians, instruments) =>{
   var arr = []
-  return arr.concat(musicians,instruments)
+  return arr.reduce(musicians,instruments)
 }
