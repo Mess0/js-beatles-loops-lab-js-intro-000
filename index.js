@@ -1,4 +1,4 @@
 
 var theBeatlesPlay = (musicians, instruments) =>{
-  var arr = []
+  var arr = [].push(musicians + " plays " + instruments)
 }
