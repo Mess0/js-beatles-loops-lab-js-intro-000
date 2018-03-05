@@ -6,7 +6,7 @@ var theBeatlesPlay = (musicians, instruments) => {
       var outer = instruments[i];
     }
   }
-  return arr.concat(inner + " plays " + outer)
+  return arr.concat(inner[i] + " plays " + outer[i])
 }
 
 // return musicians.map(function(subMus){
