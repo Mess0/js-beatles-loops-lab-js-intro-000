@@ -1,11 +1,10 @@
-musicians.map(function (subMus){}
-  instruments.map(function (subInst){}
-var theBeatlesPlay = (musicians, instruments) =>{
 
-    return subMus,subInst
-}
-var reduceFunc = (subMus, subInst) =>{
-  return subMus + " plays " + subinst
+var theBeatlesPlay = (musicians, instruments) =>{
+    musicians.map(function (subMus){
+      return instruments.map(function (subInst){
+        return subMus + " plays " + subInst
+      }
+    }
 }
 
 // arr.concat(musicians, instruments)
