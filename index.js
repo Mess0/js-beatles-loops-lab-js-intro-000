@@ -4,9 +4,4 @@ var theBeatlesPlay = (musicians, instruments) => {
           return subMus + " plays " + subInst;
       });
     });
-
-
-            
-        
-
- 
+}
